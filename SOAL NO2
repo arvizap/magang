@@ -1,0 +1,16 @@
+print('##  TES BACKEND SOAL NO.2  ##')
+print('===============================================')
+print()
+ 
+ 
+nama = input('Nama Karyawan: ')
+upah_per_jam = float(input('Tarif (/jam): ')) 
+jam_kerja = int(input('Jumlah jam kerja: '))
+ 
+total_upah = jam_kerja * upah_per_jam
+  
+if (jam_kerja - 40) > 0:
+  total_upah = total_upah + ((jam_kerja - 40) * 1.5 * upah_per_jam) 
+   
+
+print(nama,'menerima upah Rp.',total_upah,'per minggu') 
